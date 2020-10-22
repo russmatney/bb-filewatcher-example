@@ -3,10 +3,6 @@
 An example for consuming [Babashka](https://github.com/borkdude/babashka), [Pods](https://github.com/babashka/pods), and the Babashka
 [Filewatcher Pod](https://github.com/babashka/pod-babashka-filewatcher) to implement a simple file-watch logger.
 
-As written, it exits immediately... [asking for guidance here](https://github.com/babashka/pod-babashka-filewatcher/issues/6).
-
-But it works great in a repl, where the clojure process is kept alive.
-
 # Usage
 
 ## Execute raw

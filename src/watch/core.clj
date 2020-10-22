@@ -13,4 +13,6 @@
     (println "Watching" dir)
     (fw/watch dir
               (fn [event] (prn event))
-              {:delay-ms 50})))
+              {:delay-ms 50}))
+
+  @(promise))

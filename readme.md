@@ -1,6 +1,7 @@
 # Babashka Filewatcher Example
 
-An example for working with Babashka to write a simple file watcher.
+An example for consuming [Babashka](https://github.com/borkdude/babashka), [Pods](https://github.com/babashka/pods), and the Babashka
+[Filewatcher Pod](https://github.com/babashka/pod-babashka-filewatcher) to implement a simple file-watch logger.
 
 As written, it exits immediately...
 
